@@ -6,3 +6,4 @@
 // EXPECTED OUTPUT
 //  The physical folder path that is referenced by $GOPATH
 // ---------------------------------------------------------
+goenv $GOPATH
