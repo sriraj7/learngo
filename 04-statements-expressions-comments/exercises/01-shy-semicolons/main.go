@@ -9,7 +9,7 @@ package main
 
 // ---------------------------------------------------------
 // EXERCISE: Shy Semicolons
-//
+import "fmt"
 //  1. Try to type your statements by separating them using
 //     semicolons
 //
@@ -18,4 +18,5 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+  fmt.Prtintln("hello world"); fmt.Println("using shy semicolons"); fmt.Println("second hello")
 }
