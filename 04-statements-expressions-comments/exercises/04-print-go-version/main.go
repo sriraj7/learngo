@@ -7,6 +7,11 @@
 
 package main
 
+import (
+         "fmt"
+	 "runtime"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Print the Go Version
 //
@@ -22,5 +27,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ?
+	fmt.Println(runtime.verison())
+//theabove statement will print the expected output 
 }
