@@ -6,3 +6,12 @@
 ## HINT
 
 You should use correct `go doc` tools
+/*$ godoc -src runtime NumCPU
+// NumCPU returns the number of logical CPUs usable by the current process.
+//
+// The set of available CPUs is checked by querying the operating system
+// at process startup. Changes to operating system CPU allocation after
+// process startup are not reflected.
+func NumCPU() int {
+    return int(ncpu)
+}. */
