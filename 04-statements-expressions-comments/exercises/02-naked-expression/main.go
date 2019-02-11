@@ -17,5 +17,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ?
+	"Hello"
+	//Hello evaluated but not used , to use this we need a statement 
 }
