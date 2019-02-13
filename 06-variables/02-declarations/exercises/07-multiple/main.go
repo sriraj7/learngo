@@ -26,6 +26,10 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	var (
+		active int
+		delta int
+	)
 	// var (
 	//   ?
 	// )
