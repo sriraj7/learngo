@@ -20,10 +20,12 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	
+	a, c := 42, "good"
 	// ADD YOUR DECLARATIONS HERE
 	//
 
 	// THEN UNCOMMENT THE CODE BELOW
 
-	// fmt.Println(a, c)
+	fmt.Println(a, c)
 }
