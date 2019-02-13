@@ -7,6 +7,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Multiple Short Declare
 //
@@ -17,10 +19,11 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	speed, isOs := 14, true
 	// ADD YOUR DECLARATIONS HERE
 	//
 
 	// THEN UNCOMMENT THE CODE BELOW
 
-	// fmt.Println(a, b)
+	fmt.Println(speed, isOs)
 }
