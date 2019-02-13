@@ -25,6 +25,7 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	var firstname,lastname string
 	// ADD YOUR DECLARATION HERE
 	//
 
