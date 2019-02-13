@@ -6,6 +6,7 @@
 //
 
 package main
+import "fmt"
 
 // ---------------------------------------------------------
 // EXERCISE: Declare string
@@ -19,6 +20,8 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	var msg string
+	fmt.Printf("%q \n",msg)
 	// USE THE BELOW CODE
 	// You'll learn about Printf later
 
